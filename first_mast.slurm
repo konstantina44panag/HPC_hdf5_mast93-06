@@ -42,7 +42,7 @@ export CPLUS_INCLUDE_PATH=$HDF5_DIR/include:$CPLUS_INCLUDE_PATH
 export MPI_DIR=/apps/compilers/intel/18.0.4/impi/2018.4.274
 
 
-batch_file="/work/pa24/kpanag/scripts/corrected_run/taq93_06/new_months_1.txt"
+batch_file="/work/pa24/kpanag/scripts/corrected_run/taq93_06/months_1.txt"
 process_row() {
     year=$1
     month=$2
